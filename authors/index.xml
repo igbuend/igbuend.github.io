@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on pool.malpertus.com</title>
+    <link>https://pool.malpertus.com/authors/</link>
+    <description>Recent content in Authors on pool.malpertus.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Malpertus team</copyright><atom:link href="https://pool.malpertus.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://pool.malpertus.com/authors/igbuend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pool.malpertus.com/authors/igbuend/</guid>
+      <description>I am Herman Stevens, also known as igbuend. I wrote code on a TI58 calculator, a ZX Spectrum and an Amiga, installed Slackware Linux from 24 floppy disks, my first Usenet post was on 24 September 1990. I am a former developer, security consultant and PCI auditor. Now just a hacker.</description>
+    </item>
+    
+  </channel>
+</rss>

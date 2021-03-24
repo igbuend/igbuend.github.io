@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+	<meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>pool.malpertus.com  | Integrate git with the Hugo build process</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.82.0" />
+    
+    <meta NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+    
+    
+      <link href="https://pool.malpertus.com/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+    
+    
+      
+<link rel="apple-touch-icon" sizes="180x180" href="https://pool.malpertus.com/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://pool.malpertus.com/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://pool.malpertus.com/favicon-16x16.png">
+<link rel="shortcut icon" href="https://pool.malpertus.com/favicon.ico">
+<link rel="manifest" href="https://pool.malpertus.com/site.webmanifest">
+<link rel="mask-icon" href="https://pool.malpertus.com/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+
+    
+    <meta property="og:title" content="Integrate git with the Hugo build process" />
+<meta property="og:description" content="Keep track of your last modification date with Git" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pool.malpertus.com/howto/integrate-git-with-the-hugo-build-process/" /><meta property="og:image" content="https://pool.malpertus.com/randy-fath-ymf4_9Y9S_A-unsplash.jpg" /><meta property="article:section" content="howto" />
+<meta property="article:published_time" content="2020-03-07T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2020-03-07T17:09:35&#43;08:00" />
+
+<meta itemprop="name" content="Integrate git with the Hugo build process">
+<meta itemprop="description" content="Keep track of your last modification date with Git"><meta itemprop="datePublished" content="2020-03-07T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-03-07T17:09:35&#43;08:00" />
+<meta itemprop="wordCount" content="343"><meta itemprop="image" content="https://pool.malpertus.com/randy-fath-ymf4_9Y9S_A-unsplash.jpg">
+<meta itemprop="keywords" content="git,hugo,lastmod," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://pool.malpertus.com/randy-fath-ymf4_9Y9S_A-unsplash.jpg"/>
+
+<meta name="twitter:title" content="Integrate git with the Hugo build process"/>
+<meta name="twitter:description" content="Keep track of your last modification date with Git"/>
+
+       
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono' />
+  <style> html {font-family: 'Droid Sans', sans-serif; } </style>
+  <style> body {font-family: 'Droid Sans', sans-serif; } </style>
+  <style> h1 {font-family: 'Droid Sans', sans-serif; } </style>
+  <style> h2 {font-family: 'Droid Sans', sans-serif; } </style>
+  <style> h3 {font-family: 'Droid Sans', sans-serif; } </style>
+  <style> h4 {font-family: 'Droid Sans', sans-serif; } </style>
+  <style> h5 {font-family: 'Droid Sans', sans-serif; } </style>
+  <style> h6 {font-family: 'Droid Sans', sans-serif; } </style>
+  <style> pre {font-family: 'Droid Sans Mono', monospace; } </style>
+  <style> code {font-family: 'Droid Sans Mono', monospace; } </style>   
+  </head>
+
+  <body class="ma0 bg-near-white">
+
+    
+	
+
+
+  <header class="cover bg-top" style="background-image: url('randy-fath-ymf4_9Y9S_A-unsplash.jpg');"> 
+
+      <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://pool.malpertus.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      pool.malpertus.com
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://pool.malpertus.com/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://pool.malpertus.com/howto/" title="Howto page">
+              Howto
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://pool.malpertus.com/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 gold ttu tracked mb0 lh-title">Integrate git with the Hugo build process</h1>
+          
+            <h2 class="fw1 f5 f3-l gold ttl measure-wide-l center lh-copy mt3 mb4">
+              Keep track of your last modification date with Git
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+        <p class="f6 b tracked">
+          HOWTO
+        </p>
+        <h1 class="f1">
+          Integrate git with the Hugo build process
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+        <h2 id="working-hard-is-not-smart">Working Hard is not Smart</h2>
+<p>I believe most <a href="https://gohugo.io/">Hugo</a> authors use <em>Git</em> as source control. This is a smart move and makes recovering from mistakes a breeze. in the case of a remote repository <em>Git</em> also provides a rudimentary back-up solution.</p>
+<p>Why not take this a bit further and automate some of the configurable parameters of <strong>Hugo</strong>, relieving you from the task of updating the same item (the last modification date of a post) over and over?</p>
+<p>If you modify a post, but forget to manually alter the <em>lastmod</em> setting in the <strong>Hugo</strong> frontmatter, you risk that search engines might not pick up your change. Since that happens a lot to me, the only good solution is to really forget about it by automating it.</p>
+<p>As usual with <strong>Hugo</strong> you are not alone. Bigger minds have come up with a solution, as long as you use <em>Git</em> as a repository for your code.</p>
+<p>If you are not familiar with <em>Git</em>, maybe read about <a href="https://pool.malpertus.com/howto/use-bitbucket-repo-for-hugo-website/">using Bitbucket as a free but private Git repository</a> first, and then come back to this howto.</p>
+<h2 id="a-bit-of-preparation">A bit of preparation</h2>
+<p>First, include the following section in your <em>config.toml</em>:</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[frontmatter]
+    date = [&#34;date&#34;, &#34;publishDate&#34;, &#34;lastmod&#34;]
+    lastmod = [&#34;:git&#34;, &#34;lastmod&#34;, &#34;date&#34;, &#34;publishDate&#34;]
+    publishDate = [&#34;publishDate&#34;, &#34;date&#34;]
+    expiryDate = [&#34;expiryDate&#34;]
+</code></pre></div><p>This is the <a href="https://gohugo.io/getting-started/configuration/">default Hugo configuration</a>,but I prefer it when it is made explicit in the configuration.</p>
+<p>Look at the definition of <em>lastmod</em>, this is based on the value in the Git repository, and then will go to the definitions in the frontmatter of individual pages.</p>
+<p>We prefer using <em>Git</em>, since it has the correct last modification date.  Alternatively, authors or editors might forget to update the last modification date.</p>
+<p>One more modification to <em>config.toml</em> is needed. At the start add the following line:</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">enableGitInfo = true
+</code></pre></div><p>That&rsquo;s it. Easy, isn&rsquo;t it?</p>
+<h2 id="a-bit-of-cleanup">A bit of cleanup</h2>
+<p>Although the above will do the trick (<em>lastmod</em> defined by <em>Git</em>), authors might get confused if <em>lastmod</em> is still part of the Hugo frontmatter.</p>
+<p>To avoid this confusion delete all <em>lastmod</em> lines in your <strong>Hugo</strong> archetypes.</p>
+
+      </div>
+	  <div class="addthis_inline_share_toolbox"></div>
+    <figure>
+      <img src="" alt=""/>
+      <figcaption>
+        <a href="https://pool.malpertus.com/authors/igbuend/">Herman Stevens</a>
+      </figcaption>
+    </figure>
+  
+
+	  
+    </article>
+  </div>
+  
+
+    </main>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cd1946fdc14d368"></script>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://pool.malpertus.com/" >
+    &copy;  Malpertus team 2021 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="https://pool.malpertus.com/dist/js/app.3fc0f988d21662902933.js"></script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cd1946fdc14d368"></script>
+  <script type="text/javascript">
+var infolinks_pid = 2536202;
+var infolinks_wsid = 1;
+</script>
+<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+
+
+  </body>
+</html>
