@@ -1,3 +1,3 @@
 # igbuend.github.io
 
-# Coming soon!
+Static files for [https://pool.malpertus.com](https://pool.malertus.com). This website is the home for our Cardano staking node.

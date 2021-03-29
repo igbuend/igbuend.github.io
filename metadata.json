@@ -1,1 +1,6 @@
-{"name":"malpertus-sg1","ticker":"MPTUS","description":"Our first Cardana pool in Singapore","homepage":"https://pool.malpertus.com","nonce":"1616767616"}
+{
+  "name": "malpertus-sg1",
+  "description": "Our Cardano pool in Singapore",
+  "ticker": "MPTUS",
+  "homepage": "https://pool.malpertus.com"
+}

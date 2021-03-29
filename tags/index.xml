@@ -7,40 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Malpertus team</copyright>
-    <lastBuildDate>Mon, 22 Mar 2021 17:09:35 +0800</lastBuildDate><atom:link href="https://pool.malpertus.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>cardano</title>
-      <link>https://pool.malpertus.com/tags/cardano/</link>
-      <pubDate>Mon, 22 Mar 2021 17:09:35 +0800</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/cardano/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>node</title>
-      <link>https://pool.malpertus.com/tags/node/</link>
-      <pubDate>Mon, 22 Mar 2021 17:09:35 +0800</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/node/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sat, 27 Mar 2021 06:46:12 +0000</lastBuildDate><atom:link href="https://pool.malpertus.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>security</title>
       <link>https://pool.malpertus.com/tags/security/</link>
-      <pubDate>Mon, 22 Mar 2021 17:09:35 +0800</pubDate>
+      <pubDate>Sat, 27 Mar 2021 06:46:12 +0000</pubDate>
       
       <guid>https://pool.malpertus.com/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>staking</title>
-      <link>https://pool.malpertus.com/tags/staking/</link>
-      <pubDate>Mon, 22 Mar 2021 17:09:35 +0800</pubDate>
+      <title>ssh</title>
+      <link>https://pool.malpertus.com/tags/ssh/</link>
+      <pubDate>Sat, 27 Mar 2021 06:46:12 +0000</pubDate>
       
-      <guid>https://pool.malpertus.com/tags/staking/</guid>
+      <guid>https://pool.malpertus.com/tags/ssh/</guid>
       <description></description>
     </item>
     

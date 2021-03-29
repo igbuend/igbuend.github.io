@@ -8,12 +8,13 @@
     <language>en-us</language>
     <copyright>Malpertus team</copyright><atom:link href="https://pool.malpertus.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Secure all accounts before creating your first Cardano staking node</title>
-      <link>https://pool.malpertus.com/howto/secure-all-accounts-before-creating-your-first-cardano-staking-node/</link>
-      <pubDate>Mon, 22 Mar 2021 17:09:35 +0800</pubDate>
+      <title>Generate Secure and Future-Proof SSH Keys</title>
+      <link>https://pool.malpertus.com/howto/generate-secure-and-future-proof-ssh-keys/</link>
+      <pubDate>Sat, 27 Mar 2021 06:46:12 +0000</pubDate>
       
-      <guid>https://pool.malpertus.com/howto/secure-all-accounts-before-creating-your-first-cardano-staking-node/</guid>
-      <description>Working Hard is not Smart Coming soon!</description>
+      <guid>https://pool.malpertus.com/howto/generate-secure-and-future-proof-ssh-keys/</guid>
+      <description>As a Cardano Stake Pool Operator (SPO) you are responsible for the health and security of the Cardano network. As a first step, access to your node or relay must be protected with at least two factor authentication (2FA), based on something you know (like a passphrase) and something you have (like a certificate on your laptop).
+The most common tool used to remotely administer a Linux server is SSH. It is by default installed on Linux workstations or servers, and recent versions of Windows 10 include it as an optional component.</description>
     </item>
     
     <item>
@@ -26,6 +27,20 @@
 This is a new project for us. We just deployed our first Malpertus Cardano Staking node.
 It is a small node, but we are in it for the long run, since we want to support the Cardano project and give it the effort it needs.
 Since we are based in Singapore, we will do our best to expand the Cardano network in South East Asia. Currently our node is in Singapore, with two public relay servers in Singapore, and one private relay server in Canada.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://pool.malpertus.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pool.malpertus.com/about/</guid>
+      <description>Welcome to pool.malpertus.com!
+We are a group of passionate geeks, enjoying experiments with new technology. Most of us have a network or application security background.
+This site informs about the activities of our Cardano stake pool operation. Cardano is a blockchain platform for changemakers, innovators, and visionaries.
+Thanks Most images are courtesy of Unsplash.
+Privacy policy This document clarifies the privacy policy of pool.malpertus.com.
+We do not share personal information with third parties nor do we store any information about your visit to this site other than to analyze and optimize our content and your reading experience through the use of cookies.</description>
     </item>
     
     <item>
