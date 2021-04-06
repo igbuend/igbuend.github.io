@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons BY 4.0 license</copyright>
-    <lastBuildDate>Tue, 30 Mar 2021 13:29:45 +0000</lastBuildDate><atom:link href="https://pool.malpertus.com/categories/cardano/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Apr 2021 09:09:04 +0000</lastBuildDate><atom:link href="https://pool.malpertus.com/categories/cardano/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choose Safer Ports for your Ada Pool</title>
+      <link>https://pool.malpertus.com/blog/2021/04/choose-safer-ports-for-your-ada-pool/</link>
+      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
+      
+      <guid>https://pool.malpertus.com/blog/2021/04/choose-safer-ports-for-your-ada-pool/</guid>
+      <description>Once you decided you want to become an ADA (Cardano) Pool Operator, one of the first technical decisions you have to make is which ports to use for your ADA core node and relay.
+Your relay will connect to other Cardano relays and must accept incoming connections from them. Your core node will only connect to your realy and will only accept incoming connections from your relays. Installation guides often propose to use TCP ports 3000, 3001, 6000 or 6001.</description>
+    </item>
+    
     <item>
       <title>Malpertus Cardano Relay in Malaysia Now Live</title>
       <link>https://pool.malpertus.com/blog/2021/03/malpertus-cardano-relay-in-malaysia-now-live/</link>

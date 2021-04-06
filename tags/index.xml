@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons BY 4.0 license</copyright>
-    <lastBuildDate>Tue, 30 Mar 2021 13:29:45 +0000</lastBuildDate><atom:link href="https://pool.malpertus.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Apr 2021 09:09:04 +0000</lastBuildDate><atom:link href="https://pool.malpertus.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ada</title>
       <link>https://pool.malpertus.com/tags/ada/</link>
-      <pubDate>Tue, 30 Mar 2021 13:29:45 +0000</pubDate>
+      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
       
       <guid>https://pool.malpertus.com/tags/ada/</guid>
       <description></description>
@@ -20,9 +20,36 @@
     <item>
       <title>cardano</title>
       <link>https://pool.malpertus.com/tags/cardano/</link>
-      <pubDate>Tue, 30 Mar 2021 13:29:45 +0000</pubDate>
+      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
       
       <guid>https://pool.malpertus.com/tags/cardano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pool</title>
+      <link>https://pool.malpertus.com/tags/pool/</link>
+      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
+      
+      <guid>https://pool.malpertus.com/tags/pool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ports</title>
+      <link>https://pool.malpertus.com/tags/ports/</link>
+      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
+      
+      <guid>https://pool.malpertus.com/tags/ports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://pool.malpertus.com/tags/security/</link>
+      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
+      
+      <guid>https://pool.malpertus.com/tags/security/</guid>
       <description></description>
     </item>
     
@@ -41,15 +68,6 @@
       <pubDate>Tue, 30 Mar 2021 13:29:45 +0000</pubDate>
       
       <guid>https://pool.malpertus.com/tags/staking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>https://pool.malpertus.com/tags/security/</link>
-      <pubDate>Sat, 27 Mar 2021 06:46:12 +0000</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/security/</guid>
       <description></description>
     </item>
     
