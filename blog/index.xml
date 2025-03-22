@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on pool.malpertus.com</title>
-    <link>https://pool.malpertus.com/blog/</link>
-    <description>Recent content in Blog on pool.malpertus.com</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Blog on chapbook.malpertus.com</title>
+    <link>https://chapbook.malpertus.com/blog/</link>
+    <description>Recent content in Blog on chapbook.malpertus.com</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons BY 4.0 license</copyright>
-    <lastBuildDate>Mon, 22 Mar 2021 12:00:00 -0500</lastBuildDate><atom:link href="https://pool.malpertus.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Malpertus Cardano Relay in Malaysia Now Live</title>
-      <link>https://pool.malpertus.com/blog/2021/03/malpertus-cardano-relay-in-malaysia-now-live/</link>
-      <pubDate>Tue, 30 Mar 2021 13:29:45 +0000</pubDate>
-      
-      <guid>https://pool.malpertus.com/blog/2021/03/malpertus-cardano-relay-in-malaysia-now-live/</guid>
-      <description>A new relay in Malaysia A Cardano pool needs relays. Malpertus Pool started with a node in Singapore, and two relays in Singapore.
-We updated our infrastructure. Our core node is still in Singapore, put we have now public relays in Singapore and Malaysia. For availability reasons, we also have private relays in Canada and France.
-Happy Staking!</description>
-    </item>
-    
-    <item>
-      <title>Hi, welcome to pool.malpertus.com</title>
-      <link>https://pool.malpertus.com/blog/2021/03/hi-welcome-to-pool.malpertus.com/</link>
-      <pubDate>Wed, 17 Mar 2021 00:00:00 +0800</pubDate>
-      
-      <guid>https://pool.malpertus.com/blog/2021/03/hi-welcome-to-pool.malpertus.com/</guid>
-      <description>Welcome to pool.malpertus.com!
-This is a new project for us. We just deployed our first Malpertus Cardano Staking node.
-It is a small node, but we are in it for the long run, since we want to support the Cardano project and give it the effort it needs.
-Since we are based in Singapore, we will do our best to expand the Cardano network in South East Asia. Currently our node is in Singapore, with two public relay servers in Singapore, and one private relay server in Canada.</description>
-    </item>
-    
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://chapbook.malpertus.com/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

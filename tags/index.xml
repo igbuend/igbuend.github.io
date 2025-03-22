@@ -1,84 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on pool.malpertus.com</title>
-    <link>https://pool.malpertus.com/tags/</link>
-    <description>Recent content in Tags on pool.malpertus.com</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Tags on chapbook.malpertus.com</title>
+    <link>https://chapbook.malpertus.com/tags/</link>
+    <description>Recent content in Tags on chapbook.malpertus.com</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons BY 4.0 license</copyright>
-    <lastBuildDate>Tue, 06 Apr 2021 09:09:04 +0000</lastBuildDate><atom:link href="https://pool.malpertus.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ada</title>
-      <link>https://pool.malpertus.com/tags/ada/</link>
-      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/ada/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cardano</title>
-      <link>https://pool.malpertus.com/tags/cardano/</link>
-      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/cardano/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pool</title>
-      <link>https://pool.malpertus.com/tags/pool/</link>
-      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/pool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ports</title>
-      <link>https://pool.malpertus.com/tags/ports/</link>
-      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/ports/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>https://pool.malpertus.com/tags/security/</link>
-      <pubDate>Tue, 06 Apr 2021 09:09:04 +0000</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>relay</title>
-      <link>https://pool.malpertus.com/tags/relay/</link>
-      <pubDate>Tue, 30 Mar 2021 13:29:45 +0000</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/relay/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>staking</title>
-      <link>https://pool.malpertus.com/tags/staking/</link>
-      <pubDate>Tue, 30 Mar 2021 13:29:45 +0000</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/staking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ssh</title>
-      <link>https://pool.malpertus.com/tags/ssh/</link>
-      <pubDate>Sat, 27 Mar 2021 06:46:12 +0000</pubDate>
-      
-      <guid>https://pool.malpertus.com/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
+    <atom:link href="https://chapbook.malpertus.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
