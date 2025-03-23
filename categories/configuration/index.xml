@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>chapbook.malpertus.com</title>
-    <link>https://chapbook.malpertus.com/authors/igbuend/</link>
-    <description>Recent content on chapbook.malpertus.com</description>
+    <title>Configuration on chapbook.malpertus.com</title>
+    <link>https://chapbook.malpertus.com/categories/configuration/</link>
+    <description>Recent content in Configuration on chapbook.malpertus.com</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons BY 4.0 license</copyright>
-    <atom:link href="https://chapbook.malpertus.com/authors/igbuend/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Mar 2025 09:45:19 +0000</lastBuildDate>
+    <atom:link href="https://chapbook.malpertus.com/categories/configuration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generate Secure and Future-Proof SSH Keys</title>
       <link>https://chapbook.malpertus.com/howto/generate-secure-and-future-proof-ssh-keys/</link>
       <pubDate>Sat, 27 Mar 2021 06:46:12 +0000</pubDate>
       <guid>https://chapbook.malpertus.com/howto/generate-secure-and-future-proof-ssh-keys/</guid>
       <description>&lt;p&gt;As a hacker, you are used to spinning up &lt;a href=&#34;https://m.do.co/c/75685a857440&#34;&gt;Digital Ocean&lt;/a&gt; droplets, running a bare metal server at &lt;a href=&#34;https://www.ovhcloud.com/&#34;&gt;OVHCloud&lt;/a&gt; or experimenting with a &lt;a href=&#34;https://www.raspberrypi.com/&#34;&gt;Rasberry Pi&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Access to systems should be protected with at least two factor authentication (2FA), based on something you know (like a passphrase) and something you have (like a certificate on your laptop). The most common tool used to remotely administer a Linux server is &lt;strong&gt;SSH&lt;/strong&gt;. It is by default installed on Linux workstations or servers, and recent versions of Windows include it as an optional component.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hi, welcome to Chapbook!</title>
-      <link>https://chapbook.malpertus.com/blog/2021/03/hi-welcome-to-chapbook/</link>
-      <pubDate>Wed, 17 Mar 2021 00:00:00 +0800</pubDate>
-      <guid>https://chapbook.malpertus.com/blog/2021/03/hi-welcome-to-chapbook/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;chapbook.malpertus.com&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;p&gt;This is a again a new project for me. Have fun exploring this site, hope you have a few laughs, but also learn a few things.&lt;/p&gt;&#xA;&lt;p&gt;Herman (aka &amp;ldquo;igbuend&amp;rdquo;).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

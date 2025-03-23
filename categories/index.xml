@@ -7,6 +7,14 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons BY 4.0 license</copyright>
+    <lastBuildDate>Sun, 23 Mar 2025 09:45:19 +0000</lastBuildDate>
     <atom:link href="https://chapbook.malpertus.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration</title>
+      <link>https://chapbook.malpertus.com/categories/configuration/</link>
+      <pubDate>Sat, 27 Mar 2021 06:46:12 +0000</pubDate>
+      <guid>https://chapbook.malpertus.com/categories/configuration/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
