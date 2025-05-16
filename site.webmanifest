@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "chapbook.malpertus.com",
+    "short_name": "chapbook",
+    "description": "A collection of blog posts and howtos by Herman",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
